@@ -102,7 +102,7 @@ http://localhost:25500/sub   openwrt本机docker地址
 
 https://sub.qichiyu.com/sub  VPS 域名反代 地址
 
-http://192.168.10.5:25500/sub 局域网其他设备地址
+http://192.168.2.254:25500/sub 局域网其他设备地址
 
 
 
@@ -325,6 +325,7 @@ custom_proxy_group=v2ray`select`!!GROUP=V2RayProvider
 
 注意：此处的订阅链接指 default_url 和 &url= 中的订阅以及单链接节点（区别于配置文件中 insert_url）
 
+
 现在也可以使用2个条件组合来进行筛选，只有同时满足这2个筛选条件的节点才会被加入组内
 
 custom_proxy_group=g1hkselect!!GROUPID=0!!(HGC|HKBN|PCCW|HKT|hk|港)
@@ -332,19 +333,16 @@ custom_proxy_group=g1hkselect!!GROUPID=0!!(HGC|HKBN|PCCW|HKT|hk|港)
 **属于订阅链接中的第一条订阅且名字含 HGC、HKBN、PCCW、HKT、hk、港 的节点**
 
 ​
-
 custom_proxy_group=g1hkselect!!GROUPID=0!!(HGC|HKBN|PCCW|HKT|hk|港)(?!.*(深港|家宽))
 
 **属于订阅链接中的第一条订阅且名字含 HGC、HKBN、PCCW、HKT、hk、港 的节点并且排除深港\家宽**
 
 ​
-
 custom_proxy_group=g1hkselect!!GROUPID=1-2!!(HGC|HKBN|PCCW|HKT|hk|港)(?!.*(深港|家宽))
 
 **属于订阅链接中的第二\三条订阅且名字含 HGC、HKBN、PCCW、HKT、hk、港 的节点并且排除深港\家宽**
 
 ​
-
 custom_proxy_group=g1hkselect!!GROUPID=!0!!(HGC|HKBN|PCCW|HKT|hk|港)(?!.*(深港|家宽))
 
 **属于订阅链接中除了第一条订阅且名字含 HGC、HKBN、PCCW、HKT、hk、港 的节点并且排除深港\家宽**
