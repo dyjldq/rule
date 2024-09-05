@@ -1,4 +1,4 @@
-视频教程：https://www.youtube.com/watch?v=D841V_xgykg&list=PLSbqX2QvapHk7VYlbyHUIOonIl7q1n410&index=4
+分流规则视频教程：https://www.youtube.com/watch?v=D841V_xgykg&list=PLSbqX2QvapHk7VYlbyHUIOonIl7q1n410&index=4
 
 OpenClash从入门到精通
 
@@ -6,7 +6,7 @@ OpenClash从入门到精通
 往下翻找自己需要的内容！！
 
 
-immortalwrt固件：点击这里
+immortalwrt固件：[点击这里](https://firmware-selector.immortalwrt.org/)
 
 openclash luci地址：点击这里
 
