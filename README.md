@@ -8,23 +8,23 @@ OpenClash从入门到精通
 
 immortalwrt固件：[点击这里](https://firmware-selector.immortalwrt.org/)
 
-openclash luci地址：点击这里
+openclash luci地址：[点击这里](https://github.com/vernesong/OpenClash)
 
-openclash核心地址：点击这里
+openclash核心地址：[点击这里](https://github.com/vernesong/OpenClash/tree/core/master)
 
-clashmeta官方核心地址：点击这里
+clashmeta官方核心地址：[点击这里](https://github.com/MetaCubeX/mihomo/tree/Alpha)
 
-adguardhome luci地址：点击这里
+adguardhome luci地址：[点击这里](https://github.com/kongfl888/luci-app-adguardhome/releases)
 
-adguardhome核心地址：点击这里
+adguardhome核心地址：[点击这里](https://github.com/AdguardTeam/AdGuardHome)
 
-订阅后端subconverter支持文档：点击这里
+订阅后端subconverter支持文档：[点击这里](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
 
-规则集地址：ACL4SSR    blackmatrix7
+规则集地址：[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash)    [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash)
 
-规则文件：点击这里
+规则文件：[点击这里](https://drive.google.com/drive/folders/1j2uMkA_R8ppINtKkQY78gJrBJjBPtJia)
 
-DNS泄露检测：网站一    网站二
+DNS泄露检测：[网站一](https://ipleak.net/)    [网站二](https://browserleaks.com/dns)
 
 
 
