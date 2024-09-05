@@ -1,6 +1,6 @@
 分流规则视频教程：https://www.youtube.com/watch?v=D841V_xgykg&list=PLSbqX2QvapHk7VYlbyHUIOonIl7q1n410&index=4
 
-OpenClash从入门到精通
+# OpenClash从入门到精通
 
 
 往下翻找自己需要的内容！！
@@ -27,9 +27,7 @@ adguardhome核心地址：[点击这里](https://github.com/AdguardTeam/AdGuardH
 DNS泄露检测：[网站一](https://ipleak.net/)    [网站二](https://browserleaks.com/dns)
 
 
-
-
-OpenClash Luci安装：
+## OpenClash Luci安装：
 immortalwrt软件包处直接安装,  官方openwrt手动安装、Lean的固件请使用已经编译好openclash的固件。
 
 命令安装注意事项：
@@ -60,7 +58,8 @@ opkg remove dnsmasq       卸载dnsmasq  安装依赖前执行卸载.
 
 opkg remove dnsmasq && opkg install dnsmasq-full  卸载dnsmasq并安装dnsmasq-full,如果忘记卸载dnsmasq安装依赖后报错,执行这个.
 
-openclash安装clash内核
+
+## openclash安装clash内核
 第一方案：如果openwrt 有其他的科学插件例如passwall可以正常使用，开启后直接点击更新即可，更新完毕记得关闭。
 
 第二方案：电脑端目前可以正常翻墙例如使用clash v2ray等，直接点击下载到本地或者下载官方版本，然后手动上传安装。
@@ -68,22 +67,17 @@ openclash安装clash内核
 第三方案：如果目前没有科学环境，使用选择CDN下载更新，耐心等待！！
 
 
-
-绕过中国大陆IP大致原理说明
- 
+## 绕过中国大陆IP大致原理说明
 
 1. 在 iptables防火墙 中添加中国大陆 ip 段直接绕过的规则（ ipset ）
 
 2. 使用一份国内域名列表（6万条），添加至 dnsmasq 中（位置在 /tmp/dnsmasq.d 下）如果过有设置绕过黑名单会多出一个绕过域名表
 
  
-
 比如我打开 baidu.com ，被 dnsmasq 劫持,然后它比对了“国内域名列表和绕过中国大陆黑名单”发现匹配国内域名而且不在绕过黑名单里，则使用clash中设定的大陆域名DNS 来进行解析为真实的 ip，如果 ip 与 iptables防火墙中 的 大陆ip 对应就绕过clash直接访问 ；如果在国内域名表中，但解析出来的 IP 不匹配中国 IP列表，会直接把 IP交给 clash ，以 IP 方式进行连接（可以设置域名嗅探[clash meta]来恢复成域名，从而享受到在服务器端解析，如果不设置网络嗅探，如果IP有问题，就会造成无法访问），如果是绕过黑名单里的域名，会进行DNS解析得到IP后交给clash处理，而如果我打开 google.com ，dnsmasq 发现与他的域名表不匹配也不在绕过黑名单里，不进行DNS请求,直接交给了clash 。(在大陆域名列表和绕过黑名单里的所有域名都会进行DNS解析)!!绕过大陆黑名单里填写一个国外域名也会进行DNS解析.)
 
 
-
-
-谷歌商店下载问题，Fake-IP-Filter添加以下域名
+### 谷歌商店下载问题，Fake-IP-Filter添加以下域名
 +.services.googleapis.cn
 
 +.xn--ngstr-lra8j.com
@@ -91,7 +85,7 @@ openclash安装clash内核
 
 
 
-subconverter后端 Docker安装：
+## subconverter后端 Docker安装：
 安装命令：
 
 docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
@@ -113,7 +107,7 @@ http://192.168.10.5:25500/sub 局域网其他设备地址
 
 
 
-BT下载必须走直连问题：
+## BT下载必须走直连问题：
 BT下载必须走直连问题。（如果最后还是有问题参考-官方建议---注意: 默认代理路由本机流量，BT、PT 下载等请尽量使用 Redir-Host 模式并注意进行流量规避，以及使用防火墙转发）
 
 方案一，如何用的旁路有模式，单独设备或者虚拟机只做下载，然后网关指向主路由。
@@ -196,7 +190,7 @@ DST-PORT,22
 
 
 
-subconverter后端订阅转换规则说明
+## subconverter后端订阅转换规则说明
 [ruleset] 部分
 启用自定义规则集的总开关，设置为 true 时打开，默认为 true
 
