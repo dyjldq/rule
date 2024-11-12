@@ -1,8 +1,13 @@
 openclash分流规则订阅模板
+
 1、安格视界：[点击这里](https://github.com/liandu2024/clash)
-2、
+
+2、js882829:[点击这里](https://github.com/js882829/rule)
+
 规则集
+
 1、ACL4SSR：[点击这里](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash)
+
 2、blackmatrix7：[点击这里](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash)
 
 分流规则视频教程：https://www.youtube.com/watch?v=D841V_xgykg&list=PLSbqX2QvapHk7VYlbyHUIOonIl7q1n410&index=4
