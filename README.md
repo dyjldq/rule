@@ -2,3 +2,5 @@
 也可进群联系我进行定制
 ### Mihomo
 https://github.com/MetaCubeX/mihomo
+### meta-rules-dat
+https://github.com/MetaCubeX/meta-rules-dat
